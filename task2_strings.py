@@ -20,14 +20,25 @@
 
 
 
-first_name = input()
-last_name = input()
-item = input()
-qty = int.input()
-student_id = input()
+
+first_name = input ("First Name: Meryll")
+last_name = input ("Last Name: Gumana")
+item = input ("item: Rice meal")
+qty = input ("Quantity: 2")
+student_id = input ("Id: 152392")
 
 
-print(f"Customer: {first_name} {last_name}".strip().title())
-print(f"Initials: {first_name[0]}.{last_name[0]}.".upper())
-print(f"Item: {item}".title() f"x{qty}")
-print(f"ID: {student_id}", "*" * 6 + student_id[-3:])
+print ("Customer", first_name)
+print ("Customer", last_name)
+print ("item", item)
+print ("Quantity", qty)
+print ("ID", student_id)
+
+print(f"Customer: {first_name} {last_name}".strip().title()) 
+print(f"Initials: {first_name[0]}.{last_name[0]}.".upper()) 
+print(f"Item: {item}".title() (f"x{qty}".lower())) 
+print(f"ID: {student_id}", "*" * 5 + student_id[-3:])
+
+
+
+# TODO: 
